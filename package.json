@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/khitrukhina/hexlet-js/issues"
   },
-  "homepage": "https://github.com/khitrukhina/hexlet-js#readme"
+  "homepage": "https://github.com/khitrukhina/hexlet-js#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
