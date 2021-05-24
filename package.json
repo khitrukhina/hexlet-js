@@ -5,7 +5,8 @@
   "description": "Мой первый проект на Хекслете",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "dependencies": {
     "live-server": "^1.2.1",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
   }
 }
